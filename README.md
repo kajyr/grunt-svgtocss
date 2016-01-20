@@ -1,6 +1,6 @@
 # grunt-svgtocss
 
-> Grunt plugin to validate XML files
+> Grunt plugin to convert svg to css
 
 [![Build Status](https://travis-ci.org/kajyr/grunt-svgtocss.svg)](https://travis-ci.org/kajyr/grunt-svgtocss)
 
