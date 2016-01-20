@@ -1,8 +1,7 @@
 /*
- * grunt-xml-validator
- * https://github.com/panzic/grunt-xml-validator
+ * grunt-svgtocss
+ * https://github.com/panzic/grunt-svgtocss
  *
- * Copyright (c) 2014 Carlo
  * Licensed under the MIT license.
  */
 

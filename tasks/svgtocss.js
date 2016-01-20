@@ -17,8 +17,10 @@ module.exports = function(grunt) {
 			var files = file.src.map(function(f) { return path.join(file.cwd, f) })
 			options.cwd = path.join(file.cwd, file.dest);
 			
-			svgtocss.encode(files, options, function() {
-				console.log('all done!');
+			svgtocss.encode(files, options).then(function() {
+				console.log('done')
+			}).catch(function(err) {
+				console.log(err)
 			})
 
 		})
