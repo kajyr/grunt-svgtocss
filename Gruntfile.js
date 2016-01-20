@@ -15,7 +15,9 @@ module.exports = function(grunt) {
  
     // Configuration to be run (and then tested).
     svgtocss: {
-
+      test: {
+        src: ['test/svg1/*.svg', 'test/svg2/arrow-circle-right.svg']
+      }
     }
 
   });

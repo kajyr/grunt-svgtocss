@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px"
+			width="40px" height="40px" viewBox="0 0 400 400">
+			<g class="circle" fill="#FFF">
+			<circle fill-opacity="1" cx="199.782" cy="200.453" r="200"></circle>
+			</g>
+			<g class="polygon" fill="#666">
+			<polygon points="301.755,200.427 166.974,65.646 131.81,100.811 231.451,200.453 131.809,300.096 166.973,335.259 301.755,200.478 301.729,200.453 "></polygon>
+			</g>
+</svg>
