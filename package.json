@@ -1,7 +1,7 @@
 {
   "name": "grunt-svgtocss",
   "description": "Grunt plugin to convert svg to css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/kajyr/grunt-svgtocss",
   "author": {
     "name": "Carlo",
