@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 	return grunt.registerMultiTask('svgtocss', 'Grunt plugin to convert svg to css', function() {
 
 		var options = this.options(svgtocss.defaults);
-
+		var done = this.async();
 
 		this.files.forEach(function(file) {
 
@@ -18,7 +18,8 @@ module.exports = function(grunt) {
 			options.cwd = path.join(file.cwd, file.dest);
 			
 			svgtocss.encode(files, options).then(function() {
-				console.log('done')
+				console.log('done');
+				done();
 			}).catch(function(err) {
 				console.log(err)
 			})
