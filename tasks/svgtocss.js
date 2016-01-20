@@ -16,12 +16,14 @@ module.exports = function(grunt) {
 
 			var files = file.src.map(function(f) { return path.join(file.cwd, f) })
 			options.cwd = path.join(file.cwd, file.dest);
-			
+
+			grunt.log.debug('Encoding: ' +  files.length + ' files.');
+
 			svgtocss.encode(files, options).then(function() {
-				console.log('done');
+				grunt.log.writeln(files.length + " svg files encoded in: " + options.cwd);
 				done();
 			}).catch(function(err) {
-				console.log(err)
+				grunt.log.error(err);
 			})
 
 		})
