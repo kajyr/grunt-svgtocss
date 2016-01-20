@@ -38,6 +38,6 @@
     "css"
   ],
   "dependencies": {
-    "svgtocss": "^1.0.5"
+    "svgtocss": "^1.1.2"
   }
 }
