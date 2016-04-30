@@ -2,8 +2,6 @@
 
 > Grunt plugin to convert svg to css
 
-[![Build Status](https://travis-ci.org/kajyr/grunt-svgtocss.svg)](https://travis-ci.org/kajyr/grunt-svgtocss)
-
 ## Getting Started
 This plugin requires Grunt `>=0.4.4`
 
